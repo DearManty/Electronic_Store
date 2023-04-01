@@ -1,0 +1,4 @@
+2023-04-01 16:17:45,831 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 9848 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-01 16:17:45,836 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-01 16:17:45,837 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-01 16:18:07,585 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 25.25 seconds (JVM running for 36.675)
