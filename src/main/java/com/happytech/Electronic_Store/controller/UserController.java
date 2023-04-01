@@ -56,6 +56,7 @@ public class UserController {
         logger.info("Intiating request for Controller update  user");
         UserDto updateUser = this.userService.updateUser(userDto, userId);
         logger.info("Completed request for Controller update  user");
+        System.out.println("Hello");
         return new ResponseEntity<UserDto>(updateUser, HttpStatus.CREATED);
     }
 
