@@ -1,4 +1,4 @@
-package com.happytech.Electronic_Store.service;
+package com.happytech.Electronic_Store.service.Impl;
 
 import com.happytech.Electronic_Store.dto.PageableResponse;
 import com.happytech.Electronic_Store.dto.UserDto;
@@ -7,7 +7,7 @@ import com.happytech.Electronic_Store.exception.ResourceNotFoundException;
 import com.happytech.Electronic_Store.helper.AppConstant;
 import com.happytech.Electronic_Store.helper.Helper;
 import com.happytech.Electronic_Store.repository.UserRepository;
-import net.bytebuddy.TypeCache;
+import com.happytech.Electronic_Store.service.UserService;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,7 +28,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
     @Autowired
     private UserRepository userRepository;

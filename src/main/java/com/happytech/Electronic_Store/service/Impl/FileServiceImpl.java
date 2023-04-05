@@ -1,6 +1,7 @@
-package com.happytech.Electronic_Store.service;
+package com.happytech.Electronic_Store.service.Impl;
 
 import com.happytech.Electronic_Store.exception.BadApiRequest;
+import com.happytech.Electronic_Store.service.FileService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -11,7 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.UUID;
 @Service
-public class FileServiceImpl implements FileService{
+public class FileServiceImpl implements FileService {
 
     private Logger logger= LoggerFactory.getLogger(FileServiceImpl.class);
     @Override

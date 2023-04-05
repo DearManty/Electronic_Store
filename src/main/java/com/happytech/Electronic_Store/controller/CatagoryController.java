@@ -1,18 +1,25 @@
 package com.happytech.Electronic_Store.controller;
 
-import com.happytech.Electronic_Store.dto.ApiResposnse;
-import com.happytech.Electronic_Store.dto.CatagoryDto;
-import com.happytech.Electronic_Store.dto.PageableResponse;
+import com.happytech.Electronic_Store.dto.*;
+import com.happytech.Electronic_Store.entity.Catagory;
 import com.happytech.Electronic_Store.helper.AppConstant;
 import com.happytech.Electronic_Store.service.CatagoryService;
+import com.happytech.Electronic_Store.service.FileService;
+import org.hibernate.engine.jdbc.StreamUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 @RestController
@@ -22,6 +29,11 @@ public class CatagoryController {
     @Autowired
     private CatagoryService catagoryService;
 
+    @Autowired
+    private FileService fileService;
+
+    @Value("${catagory.profile.image.paths}")
+    private String imageUploadPath;
     // CREATE
     @PostMapping
     public ResponseEntity<CatagoryDto> createCatagory(@Valid @RequestBody CatagoryDto catagoryDto) {
@@ -84,6 +96,33 @@ public class CatagoryController {
         List<CatagoryDto> searchByTitle = this.catagoryService.searchByTitle(keyword);
         logger.info("completed request for Controller search catagory");
         return new ResponseEntity<List<CatagoryDto>>(searchByTitle, HttpStatus.OK);
+
+    }
+    @PostMapping("/image/{catagoryId}")
+    public ResponseEntity<ImageResponse> uploadUserImage(@RequestParam("userImage") MultipartFile image,
+                                                         @PathVariable int catagoryId) throws IOException {
+        logger.info("Initiating request for Controller uploadImage");
+        String imageName = this.fileService.uploadFile(image, imageUploadPath);
+
+        CatagoryDto catagoryDto=catagoryService.getSingleCatagory(catagoryId);
+        catagoryDto.setCoverImage(imageName);
+        CatagoryDto updateCatagory = catagoryService.updateCatagory(catagoryDto, catagoryId);
+        ImageResponse imageResponse = ImageResponse.builder().imageName(imageName)
+                .messege("Image is Successfully Saved").success(true).status(HttpStatus.CREATED).build();
+        logger.info("Completed request for Controller uploadImage");
+        return new ResponseEntity<>(imageResponse, HttpStatus.CREATED);
+
+    }
+
+    // serve user Image
+    @GetMapping("/images/{catagoryId}")
+    public void serveUserImage(@PathVariable int catagoryId, HttpServletResponse response) throws IOException {
+        CatagoryDto catagory = this.catagoryService.getSingleCatagory(catagoryId);
+        logger.info("Catagory Image Name:" + catagory.getCoverImage());
+        InputStream resource = fileService.getResource(imageUploadPath, catagory.getCoverImage());
+
+        response.setContentType(MediaType.IMAGE_JPEG_VALUE);
+        StreamUtils.copy(resource, response.getOutputStream());
 
     }
 }

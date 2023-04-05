@@ -1,4 +1,4 @@
-package com.happytech.Electronic_Store.service;
+package com.happytech.Electronic_Store.service.Impl;
 
 import com.happytech.Electronic_Store.dto.CatagoryDto;
 import com.happytech.Electronic_Store.dto.PageableResponse;
@@ -7,6 +7,7 @@ import com.happytech.Electronic_Store.exception.ResourceNotFoundException;
 import com.happytech.Electronic_Store.helper.AppConstant;
 import com.happytech.Electronic_Store.helper.Helper;
 import com.happytech.Electronic_Store.repository.CatagoryRepository;
+import com.happytech.Electronic_Store.service.CatagoryService;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
