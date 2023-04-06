@@ -10,4 +10,6 @@ public class AppConstant {
 
     public static final String DELETE_CATAGORY="Catagory Deleted Succesfully!";
 
+    public static final String DELETE_PRODUCT="Product Deleted Succesfully!!";
+
 }

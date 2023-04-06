@@ -21,7 +21,7 @@ public interface ProductService {
 
     //  getAllProduct
 
-    PageableResponse<ProductDto> getAllProduct();
+    PageableResponse<ProductDto> getAllProduct(int pageNumber,int pageSize,String sortDir,String sortBy);
 
     //delete
 
@@ -29,9 +29,9 @@ public interface ProductService {
 
     //search product
 
-    PageableResponse<ProductDto> searchByTitle(String subTitle);
+    PageableResponse<ProductDto> searchByTitle(String subTitle,int pageNumber,int pageSize,String sortDir,String sortBy);
 
     //getAll Live
 
-    PageableResponse<ProductDto> getAllLive();
+    PageableResponse<ProductDto> getAllLive(int pageNumber,int pageSize,String sortDir,String sortBy);
 }

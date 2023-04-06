@@ -1,0 +1,27 @@
+2023-04-04 16:27:05,653 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 1116 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-04 16:27:05,659 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-04 16:27:05,661 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-04 16:27:47,229 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 10520 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-04 16:27:47,234 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-04 16:27:47,235 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-04 16:28:03,305 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 16.724 seconds (JVM running for 20.5)
+2023-04-04 16:30:51,510 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 764 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-04 16:30:51,515 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-04 16:30:51,516 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-04 16:31:11,517 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 21.148 seconds (JVM running for 23.14)
+2023-04-04 16:31:24,369 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 236 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-04 16:31:24,376 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-04 16:31:24,378 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-04 16:31:34,845 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 11.346 seconds (JVM running for 12.892)
+2023-04-04 16:32:25,349 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 1780 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-04 16:32:25,355 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-04 16:32:25,356 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-04 16:32:35,596 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 11.303 seconds (JVM running for 12.783)
+2023-04-04 16:33:10,059 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 6084 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-04 16:33:10,064 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-04 16:33:10,065 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-04 16:33:19,050 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 9.798 seconds (JVM running for 11.565)
+2023-04-04 17:43:17,515 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 1184 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-04 17:43:17,531 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-04 17:43:17,532 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-04 17:43:32,517 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 17.402 seconds (JVM running for 21.9)
