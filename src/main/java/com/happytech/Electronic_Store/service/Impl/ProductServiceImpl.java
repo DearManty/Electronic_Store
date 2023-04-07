@@ -69,11 +69,11 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public PageableResponse<ProductDto> getAllProduct(int pageNumber,int pageSize,String sortDir,String sortBy) {
+    public PageableResponse<ProductDto> getAllProduct(int pageNumber,int pageSize,String sortBy,String sortDir) {
         logger.info("Intiating request for Controller getAll product");
         Sort sort = (sortDir.equalsIgnoreCase("desc")) ? (Sort.by(sortBy).descending()) : (Sort.by(sortBy).ascending());
 
-        PageRequest pageable = PageRequest.of(pageNumber, pageSize, sort);
+        PageRequest pageable = PageRequest.of(pageNumber, pageSize,sort);
         Page<Product> page = this.productRepository.findAll(pageable);
         PageableResponse<ProductDto> pageableResponse = Helper.getPageableResponse(page, ProductDto.class);
         logger.info("Completed request for Controller getAll product");
@@ -91,7 +91,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public PageableResponse<ProductDto> searchByTitle(String subTitle,int pageNumber,int pageSize,String sortDir,String sortBy) {
+    public PageableResponse<ProductDto> searchByTitle(String subTitle,int pageNumber,int pageSize,String sortBy,String sortDir) {
         logger.info("Intiating request for Controller search product");
 Sort sort=(sortDir.equalsIgnoreCase("desc"))?(Sort.by(sortBy).descending()):(Sort.by(sortBy).ascending());
         PageRequest pageable = PageRequest.of(pageNumber, pageSize, sort);
@@ -102,7 +102,7 @@ Sort sort=(sortDir.equalsIgnoreCase("desc"))?(Sort.by(sortBy).descending()):(Sor
     }
 
     @Override
-    public PageableResponse<ProductDto> getAllLive(int pageNumber,int pageSize,String sortDir,String sortBy) {
+    public PageableResponse<ProductDto> getAllLive(int pageNumber,int pageSize,String sortBy,String sortDir) {
         logger.info("Intiating request for Controller getAllLlive ");
         Sort sort = (sortDir.equalsIgnoreCase("desc")) ? (Sort.by(sortBy).descending()) : (Sort.by(sortBy).ascending());
 

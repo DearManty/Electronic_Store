@@ -1,58 +1,156 @@
-2023-04-06 16:43:16,523 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 7484 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 16:43:16,530 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 16:43:16,532 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-06 16:44:20,680 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 3240 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 16:44:20,690 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 16:44:20,691 INFO  SpringApplication:637 - [] The following 1 profile is active: "qa"
-2023-04-06 16:51:24,418 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 9328 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 16:51:24,439 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 16:51:24,441 INFO  SpringApplication:637 - [] The following 1 profile is active: "prod"
-2023-04-06 16:56:13,556 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 10592 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 16:56:13,562 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 16:56:13,564 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-06 16:58:06,392 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 9440 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 16:58:06,397 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 16:58:06,398 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
-2023-04-06 16:58:22,344 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 16.791 seconds (JVM running for 18.213)
-2023-04-06 17:05:23,202 INFO  CatagoryController:51 - [] Intiating request for Controller update catagory
-2023-04-06 17:05:23,203 INFO  CatagoryServiceImpl:46 - [] Intiating request for Service update  catagory
-2023-04-06 17:05:23,646 INFO  CatagoryServiceImpl:54 - [] completed request for Service update  catagory
-2023-04-06 17:05:23,647 INFO  CatagoryController:53 - [] completed request for Controller update catagory
-2023-04-06 17:15:08,235 INFO  CatagoryController:76 - [] Intiating request for Controller getAll catagory
-2023-04-06 17:15:08,236 INFO  CatagoryServiceImpl:70 - [] Intiating request for Service getAll  catagory
-2023-04-06 17:15:08,623 INFO  CatagoryServiceImpl:75 - [] completed request for Service getAll  catagory
-2023-04-06 17:15:08,623 INFO  CatagoryController:79 - [] completed request for Controller getAll catagory
-2023-04-06 17:17:04,967 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 8964 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 17:17:04,974 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 17:17:04,978 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
-2023-04-06 17:17:14,965 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 11.031 seconds (JVM running for 12.688)
-2023-04-06 17:17:40,617 INFO  CatagoryController:76 - [] Intiating request for Controller getAll catagory
-2023-04-06 17:17:40,617 INFO  CatagoryServiceImpl:70 - [] Intiating request for Service getAll  catagory
-2023-04-06 17:17:40,911 INFO  CatagoryServiceImpl:75 - [] completed request for Service getAll  catagory
-2023-04-06 17:17:40,912 INFO  CatagoryController:79 - [] completed request for Controller getAll catagory
-2023-04-06 17:18:30,557 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 7516 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 17:18:30,562 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 17:18:30,563 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
-2023-04-06 17:18:39,660 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 9.944 seconds (JVM running for 11.304)
-2023-04-06 17:34:49,152 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 2348 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 17:34:49,156 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 17:34:49,157 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
-2023-04-06 17:37:31,789 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 2620 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 17:37:31,794 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 17:37:31,819 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
-2023-04-06 17:38:44,873 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 9376 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 17:38:44,878 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 17:38:44,879 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
-2023-04-06 17:38:58,840 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 14.722 seconds (JVM running for 16.065)
-2023-04-06 17:53:12,149 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 4768 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
-2023-04-06 17:53:12,156 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
-2023-04-06 17:53:12,158 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
-2023-04-06 17:53:26,774 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 15.768 seconds (JVM running for 17.73)
-2023-04-06 17:53:58,102 INFO  ProductController:60 - [] Intiating request for Controller getAll product
-2023-04-06 17:53:58,103 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
-2023-04-06 17:56:39,257 INFO  CatagoryController:76 - [] Intiating request for Controller getAll catagory
-2023-04-06 17:56:39,258 INFO  CatagoryServiceImpl:70 - [] Intiating request for Service getAll  catagory
-2023-04-06 17:56:39,896 INFO  CatagoryServiceImpl:75 - [] completed request for Service getAll  catagory
-2023-04-06 17:56:39,896 INFO  CatagoryController:79 - [] completed request for Controller getAll catagory
-2023-04-06 17:57:11,450 INFO  ProductController:60 - [] Intiating request for Controller getAll product
-2023-04-06 17:57:11,451 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 10:42:23,169 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 1744 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 10:42:23,176 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 10:42:23,178 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 10:44:44,560 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 145.437 seconds (JVM running for 154.772)
+2023-04-07 10:48:07,689 INFO  CatagoryController:76 - [] Intiating request for Controller getAll catagory
+2023-04-07 10:48:07,693 INFO  CatagoryServiceImpl:70 - [] Intiating request for Service getAll  catagory
+2023-04-07 10:48:09,771 INFO  CatagoryServiceImpl:75 - [] completed request for Service getAll  catagory
+2023-04-07 10:48:09,772 INFO  CatagoryController:79 - [] completed request for Controller getAll catagory
+2023-04-07 10:48:25,878 INFO  ProductController:60 - [] Intiating request for Controller getAll product
+2023-04-07 10:48:25,879 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 10:53:48,906 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 9040 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 10:53:48,943 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 10:53:48,944 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 10:54:46,092 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 62.321 seconds (JVM running for 71.607)
+2023-04-07 10:55:14,656 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 10252 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 10:55:14,664 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 10:55:14,666 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 10:55:35,004 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 21.972 seconds (JVM running for 25.991)
+2023-04-07 10:55:48,576 INFO  UserController:83 - [] Intiating request for Controller getAll user
+2023-04-07 10:55:48,577 INFO  UserServiceImpl:104 - [] Intiating request for getAll   user
+2023-04-07 10:55:50,030 INFO  UserController:85 - [] Completed request for Controller getAll user
+2023-04-07 10:56:02,111 INFO  CatagoryController:76 - [] Intiating request for Controller getAll catagory
+2023-04-07 10:56:02,114 INFO  CatagoryServiceImpl:70 - [] Intiating request for Service getAll  catagory
+2023-04-07 10:56:02,286 INFO  CatagoryServiceImpl:75 - [] completed request for Service getAll  catagory
+2023-04-07 10:56:02,287 INFO  CatagoryController:79 - [] completed request for Controller getAll catagory
+2023-04-07 10:56:06,429 INFO  ProductController:60 - [] Intiating request for Controller getAll product
+2023-04-07 10:56:06,430 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 10:56:06,598 INFO  ProductServiceImpl:79 - [] Completed request for Controller getAll product
+2023-04-07 10:56:06,599 INFO  ProductController:62 - [] Completed request for Controller getAll product
+2023-04-07 11:04:27,285 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 4804 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:04:27,292 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:04:27,294 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 11:04:57,502 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 32.964 seconds (JVM running for 37.733)
+2023-04-07 11:05:05,648 INFO  ProductController:60 - [] Intiating request for Controller getAll product
+2023-04-07 11:05:05,649 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 11:06:07,145 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 10304 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:06:07,148 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:06:07,150 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 11:06:21,341 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 15.923 seconds (JVM running for 19.37)
+2023-04-07 11:07:05,214 INFO  ProductController:60 - [] Intiating request for Controller getAll product
+2023-04-07 11:07:05,215 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 11:12:22,744 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 1976 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:12:22,751 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:12:22,752 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 11:12:39,378 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 18.366 seconds (JVM running for 21.848)
+2023-04-07 11:12:54,640 INFO  ProductController:60 - [] Intiating request for Controller getAll product
+2023-04-07 11:12:54,644 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 11:12:55,968 INFO  ProductServiceImpl:79 - [] Completed request for Controller getAll product
+2023-04-07 11:12:55,969 INFO  ProductController:62 - [] Completed request for Controller getAll product
+2023-04-07 11:13:37,549 INFO  ProductController:60 - [] Intiating request for Controller getAll product
+2023-04-07 11:13:37,551 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 11:13:37,583 INFO  ProductServiceImpl:79 - [] Completed request for Controller getAll product
+2023-04-07 11:13:37,584 INFO  ProductController:62 - [] Completed request for Controller getAll product
+2023-04-07 11:13:55,140 INFO  ProductController:85 - [] Intiating request for Controller getAllLlive 
+2023-04-07 11:13:55,141 INFO  ProductServiceImpl:106 - [] Intiating request for Controller getAllLlive 
+2023-04-07 11:17:35,064 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 1800 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:17:35,070 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:17:35,072 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 11:18:03,464 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 30.522 seconds (JVM running for 34.647)
+2023-04-07 11:18:12,058 INFO  ProductController:86 - [] Intiating request for Controller getAllLlive 
+2023-04-07 11:18:12,059 INFO  ProductServiceImpl:106 - [] Intiating request for Controller getAllLlive 
+2023-04-07 11:18:12,893 INFO  ProductServiceImpl:112 - [] Completed request for Controller getAllLlive
+2023-04-07 11:18:12,894 INFO  ProductController:88 - [] Completed request for Controller getAllLlive
+2023-04-07 11:20:35,047 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:20:35,049 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:20:35,376 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:20:35,377 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:20:51,552 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:20:51,553 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:20:51,568 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:20:51,568 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:21:31,794 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:21:31,795 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:21:31,806 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:21:31,806 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:21:41,512 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:21:41,513 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:21:41,523 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:21:41,524 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:21:52,495 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:21:52,495 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:21:52,526 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:21:52,527 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:21:59,475 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:21:59,477 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:21:59,489 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:21:59,489 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:24:19,025 INFO  ProductController:28 - [] Intiating request for Controller create product
+2023-04-07 11:24:19,169 INFO  ProductServiceImpl:34 - [] Intiating request for Controller create product
+2023-04-07 11:24:25,322 INFO  ProductServiceImpl:38 - [] Completed request for Controller create product
+2023-04-07 11:24:25,323 INFO  ProductController:30 - [] Completed request for Controller create product
+2023-04-07 11:26:07,578 INFO  ProductController:28 - [] Intiating request for Controller create product
+2023-04-07 11:26:07,579 INFO  ProductServiceImpl:34 - [] Intiating request for Controller create product
+2023-04-07 11:26:07,671 INFO  ProductServiceImpl:38 - [] Completed request for Controller create product
+2023-04-07 11:26:07,672 INFO  ProductController:30 - [] Completed request for Controller create product
+2023-04-07 11:26:16,335 INFO  ProductController:61 - [] Intiating request for Controller getAll product
+2023-04-07 11:26:16,337 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 11:26:16,433 INFO  ProductServiceImpl:79 - [] Completed request for Controller getAll product
+2023-04-07 11:26:16,434 INFO  ProductController:63 - [] Completed request for Controller getAll product
+2023-04-07 11:26:37,047 INFO  ProductController:86 - [] Intiating request for Controller getAllLlive 
+2023-04-07 11:26:37,049 INFO  ProductServiceImpl:106 - [] Intiating request for Controller getAllLlive 
+2023-04-07 11:26:37,072 INFO  ProductServiceImpl:112 - [] Completed request for Controller getAllLlive
+2023-04-07 11:26:37,073 INFO  ProductController:88 - [] Completed request for Controller getAllLlive
+2023-04-07 11:26:53,635 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:26:53,637 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:26:53,648 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:26:53,648 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:27:01,475 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:27:01,475 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:27:01,487 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:27:01,488 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:27:07,558 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:27:07,558 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:27:07,562 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:27:07,562 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:27:12,514 INFO  ProductController:101 - [] Intiating request for Controller search product
+2023-04-07 11:27:12,515 INFO  ProductServiceImpl:95 - [] Intiating request for Controller search product
+2023-04-07 11:27:12,537 INFO  ProductServiceImpl:100 - [] Completed request for Controller search product
+2023-04-07 11:27:12,538 INFO  ProductController:103 - [] Completed request for Controller search product
+2023-04-07 11:28:40,888 INFO  ProductController:61 - [] Intiating request for Controller getAll product
+2023-04-07 11:28:40,888 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 11:28:41,350 INFO  ProductServiceImpl:79 - [] Completed request for Controller getAll product
+2023-04-07 11:28:41,350 INFO  ProductController:63 - [] Completed request for Controller getAll product
+2023-04-07 11:29:19,211 INFO  ProductController:61 - [] Intiating request for Controller getAll product
+2023-04-07 11:29:19,212 INFO  ProductServiceImpl:73 - [] Intiating request for Controller getAll product
+2023-04-07 11:29:19,228 INFO  ProductServiceImpl:79 - [] Completed request for Controller getAll product
+2023-04-07 11:29:19,228 INFO  ProductController:63 - [] Completed request for Controller getAll product
+2023-04-07 11:29:36,019 INFO  ProductController:86 - [] Intiating request for Controller getAllLlive 
+2023-04-07 11:29:36,020 INFO  ProductServiceImpl:106 - [] Intiating request for Controller getAllLlive 
+2023-04-07 11:29:36,032 INFO  ProductServiceImpl:112 - [] Completed request for Controller getAllLlive
+2023-04-07 11:29:36,032 INFO  ProductController:88 - [] Completed request for Controller getAllLlive
+2023-04-07 11:32:35,414 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 6248 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:32:35,423 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:32:35,425 INFO  SpringApplication:637 - [] The following 1 profile is active: "prod"
+2023-04-07 11:38:47,674 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 11040 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:38:47,674 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:38:47,674 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 11:39:14,734 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 5672 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:39:14,739 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:39:14,741 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-07 11:39:46,949 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 5756 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:39:47,004 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:39:47,010 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-07 11:40:49,612 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 10496 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:40:49,620 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:40:49,622 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-07 11:41:07,172 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 8688 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:41:07,177 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:41:07,179 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-07 11:41:50,710 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 5340 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:41:50,724 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:41:50,725 INFO  SpringApplication:637 - [] The following 1 profile is active: "dev"
+2023-04-07 11:43:36,800 INFO  StartupInfoLogger:55 - [] Starting ElectronicStoreApplication using Java 17.0.4 on DESKTOP-4QAJO1B with PID 4388 (C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store\target\classes started by SOLUTIONS in C:\Users\SOLUTIONS\Desktop\Bristi\Electronic_Store)
+2023-04-07 11:43:36,804 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-04-07 11:43:36,805 INFO  SpringApplication:631 - [] No active profile set, falling back to 1 default profile: "default"
+2023-04-07 11:44:12,915 INFO  StartupInfoLogger:61 - [] Started ElectronicStoreApplication in 41.939 seconds (JVM running for 49.163)

@@ -50,6 +50,7 @@ public class ProductController {
         logger.info("Completed request for Controller get Single product"+productId);
         return  new ResponseEntity<ProductDto>(singleProduct,HttpStatus.OK);
     }
+    //getAllProduct
     @GetMapping("/getAll")
     public ResponseEntity<PageableResponse<ProductDto>> getAllProduct(
             @RequestParam(value = "pageNumber", defaultValue = "0", required = false) int pageNumber,
@@ -58,7 +59,7 @@ public class ProductController {
             @RequestParam(value = "sortDir", defaultValue = "asc", required = false) String sortDir
     ){
         logger.info("Intiating request for Controller getAll product");
-        PageableResponse<ProductDto> allProduct = this.productService.getAllProduct(pageNumber, pageSize, sortBy, sortDir);
+        PageableResponse<ProductDto> allProduct = this.productService.getAllProduct(pageNumber, pageSize,sortBy,sortDir);
         logger.info("Completed request for Controller getAll product");
         return new ResponseEntity<PageableResponse<ProductDto>>(allProduct,HttpStatus.OK);
     }
